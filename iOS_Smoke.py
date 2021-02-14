@@ -1,7 +1,5 @@
-import os
-import pytest
-from time import sleep
 from appium import webdriver
+from time import sleep
 
 desired_caps = {
 'platformName': 'iOS',
