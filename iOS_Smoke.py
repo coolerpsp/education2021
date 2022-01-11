@@ -11,7 +11,7 @@ desired_caps = {
 driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
 driver.implicitly_wait(5)
 
-# Steps:
+# Steps555:
 email = driver.find_element_by_accessibility_id('emailInput')
 email.send_keys('alpinapublisher@bm.fbl.su')
 password = driver.find_element_by_accessibility_id('passwordInput')
